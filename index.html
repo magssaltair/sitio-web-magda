@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IE 2025</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Tipografías -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- ================= Hero Section ================= -->
+  <section class="hero">
+    <!-- Contenedor para el sketch de p5.js -->
+    <div id="p5-background"></div>
+    <div class="hero-text">
+      <h1>Portafolio Imagen Escrita 2025</h1>
+    </div>
+  </section>
+
+  <!-- ================= Navbar ================= -->
+  <nav class="navbar">
+    <div class="logo">Imagen Escrita 2025</div>
+    <ul class="nav-links">
+      <li><a href="#container">Inicio</a></li>
+      <li><a href="https://wiki.ead.pucv.cl/Sitio_Web_IE_-_Magdalena_Guti%C3%A9rrez_Sep%C3%BAlveda" target="_blank">Wiki</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#info">Info</a></li>
+    </ul>
+  </nav>
+
+  <!-- ================= Contenedor General ================= -->
+  <main id="container">
+
+    <!-- Intro -->
+    <section class="intro fade-in">
+      <div class="intro-left">
+        <h2>Imagen Escrita y Arte Generativo</h2>
+      </div>
+      <div class="intro-right">
+        <p>
+          Imagen Escrita es una asignatura que une la programación con el diseño,
+          generando experimentación artística a través de programas computacionales como p5.js,
+          utilizados de manera interactiva y funcional.
+        </p>
+        <p>
+          El arte generativo consiste en obras creadas por un algoritmo en base a reglas y
+          aleatoriedad dentro de un rango específico definido por una persona.
+          Permite la creatividad y la experimentación digital, y puede ser tanto interactivo como estático:
+          es el uso de la programación como una expresión artística y creativa.
+        </p>
+        <a href="https://wiki.ead.pucv.cl/Sitio_Web_IE_-_Magdalena_Guti%C3%A9rrez_Sep%C3%BAlveda" target="_blank">
+          <button>Wiki del proyecto</button>
+        </a>
+      </div>
+    </section>
+
+    <!-- ================= Proyectos ================= -->
+    <section class="proyectos fade-in" id="proyectos">
+      <h2>Arte generativo en p5.js</h2>
+      <div class="galeria">
+
+        <!-- Tarjeta 1 -->
+        <div class="tarjeta">
+          <a href="#" data-modal="modal1">
+            <img src="assets/ssjmags.png" alt="Tarea 1">
+            <h3>Tarea 1</h3>
+          </a>
+        </div>
+
+        <!-- Modal 1 -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h4>Tarea 1: Álbum musical</h4>
+            <img src="assets/ssjmags.png" alt="Tarea 1">
+            <p>
+              Este proyecto consiste en la abstracción geométrica de la portada de un álbum musical.
+              Se escogió el álbum SSJ (SuperSangreJoven) del cantante Duki,
+              priorizando mantener los colores y formas geométricas similares a la portada original.
+            </p>
+            <div class="modal-buttons">
+              <a href="https://editor.p5js.org/mags.altair/full/E_uFhd8ni" target="_blank" class="modal-btn btn-green">Ver en p5.js</a>
+              <a href="https://wiki.ead.pucv.cl/Encargo_1_IE_-_S%C3%BAper_Sangre_Joven_/_Magdalena_Guti%C3%A9rrez_Sep%C3%BAlveda"
+                target="_blank" class="modal-btn btn-black">Ver en WikiCasiopea</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 2 -->
+        <div class="tarjeta">
+          <a href="#" data-modal="modal2">
+            <img src="assets/cuadradosnoLOOP.png" alt="Tarea 2">
+            <h3>Tarea 2</h3>
+          </a>
+        </div>
+
+        <!-- Modal 2 -->
+        <div id="modal2" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h4>Tarea 2: Cuadrados que aparecen</h4>
+            <img src="assets/cuadradosnoLOOP.png" alt="Tarea 2">
+            <p>
+              Este proyecto muestra la creación de un sketch utilizando condicionales y bucles <code>for</code>.
+              Es interactivo al movimiento del mouse, aplicando puntos de color verde o rosado
+              dependiendo del lado de la pantalla. Además, se van agregando cuadrados negros
+              hasta cubrir todo el canvas.
+            </p>
+            <div class="modal-buttons">
+              <a href="https://editor.p5js.org/mags.altair/full/iILRBRiyy" target="_blank" class="modal-btn btn-green">Ver en p5.js</a>
+              <a href="https://wiki.ead.pucv.cl/Encargo_2_IE_-_Magdalena_Guti%C3%A9rrez_Sep%C3%BAlveda" target="_blank"
+                class="modal-btn btn-black">Ver en WikiCasiopea</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 3 -->
+        <div class="tarjeta">
+          <a href="#" data-modal="modal3">
+            <img src="assets/c2.png" alt="Tarea 3">
+            <h3>Tarea 3</h3>
+          </a>
+        </div>
+
+        <!-- Modal 3 -->
+        <div id="modal3" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h4>Tarea 3: Círculos que giran y saltan</h4>
+            <img src="assets/c2.png" alt="Tarea 3">
+            <p>
+              Proyecto interactivo que utiliza transformaciones (<code>translate</code>, <code>rotate</code>, <code>scale</code>, <code>push</code>, <code>pop</code>).
+              Los círculos giran a distinta velocidad según el movimiento del mouse en eje X,
+              y crecen en tamaño al mover el mouse en eje Y. Al hacer clic, los círculos "saltan".
+            </p>
+            <div class="modal-buttons">
+              <a href="https://editor.p5js.org/mags.altair/full/XDhKWyXoN" target="_blank" class="modal-btn btn-green">Ver en p5.js</a>
+              <a href="https://wiki.ead.pucv.cl/Encargo_3_IE_-_Magdalena_Guti%C3%A9rrez_Sep%C3%BAlveda" target="_blank"
+                class="modal-btn btn-black">Ver en WikiCasiopea</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tarjeta 4 -->
+        <div class="tarjeta">
+          <a href="#" data-modal="modal4">
+            <img src="assets/cuadrados recursivos.png" alt="Tarea 4">
+            <h3>Tarea 4</h3>
+          </a>
+        </div>
+
+        <!-- Modal 4 -->
+        <div id="modal4" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h4>Tarea 4: Cuadrados recursivos</h4>
+            <img src="assets/cuadrados recursivos.png" alt="Tarea 4">
+            <p>
+              Proyecto que implementa un patrón recursivo con interacción:
+              <ul>
+                <li>El eje Y controla el tamaño de las figuras.</li>
+                <li>El eje X controla la cantidad de figuras alrededor.</li>
+                <li>Colores aleatorios con tonalidad brillante.</li>
+              </ul>
+              Además incluye un <code>slider</code> para elegir qué figura mostrar:
+              <b>1 → círculo</b>, <b>2 → cuadrados</b>, <b>3 → triángulos</b>.
+            </p>
+            <div class="modal-buttons">
+              <a href="https://editor.p5js.org/mags.altair/full/LsEBXlYk-" target="_blank" class="modal-btn btn-green">Ver en p5.js</a>
+              <a href="https://wiki.ead.pucv.cl/Encargo_4_IE_-_Magdalena_Guti%C3%A9rrez_Sep%C3%BAlveda" target="_blank"
+                class="modal-btn btn-black">Ver en WikiCasiopea</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= Footer ================= -->
+  <footer id="info" class="footer">
+    <p>Magdalena Gutiérrez Sepúlveda</p>
+    <p>Estudiante de diseño, e[ad], PUCV</p>
+    <p>
+      Correo: <a href="mailto:magdalena.gutierrez.s@mail.pucv.cl">magdalena.gutierrez.s@mail.pucv.cl</a>
+    </p>
+    <p>
+      <a href="https://wiki.ead.pucv.cl/Magdalena_Guti%C3%A9rrez_Sep%C3%BAlveda" target="_blank">WikiCasiopea</a>
+      <a href="https://editor.p5js.org/mags.altair/collections/mJiE4srTl" target="_blank">Carpeta p5.js</a>
+      <a href="https://github.com/magssaltair" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+  <!-- ================= Botón Scroll Top + Cursor ================= -->
+  <button id="scrollTopBtn">↑</button>
+  <div class="cursor"></div>
+
+  <!-- ================= Scripts ================= -->
+  <!-- Librería p5.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <!-- Tu sketch -->
+  <script src="js/sketch.js"></script>
+  <!-- Script principal -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
